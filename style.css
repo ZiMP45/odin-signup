@@ -10,7 +10,6 @@ body {
 .page {
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 .logo {
@@ -20,6 +19,13 @@ body {
     height: 960px;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .block {
     padding: 36px;
 }
@@ -27,12 +33,19 @@ body {
 .input {
     text-align: center;
     background-color: #F6F7F8;
-    border: 1px solid #D6D9DC;
+    box-shadow: 0px 4px 14px #5D6063;
     border-radius: 3px;
 
-    width: 100%;
+    width: 85%;
     margin: 20px 0;
-    padding: 50px;
+    padding: 0 50px;
+}
+
+.title {
+    font-size: 28px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
 .form-row {
