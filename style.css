@@ -1,0 +1,45 @@
+/* * {
+    border: 1px solid black;
+} */
+
+body {
+    color: #5D6063;
+    background-color: #EAEDF0;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    background: url(assets/surf.jpg) center center;
+    width: 33%;
+    background-size: cover;
+    height: 960px;
+}
+
+.block {
+    padding: 36px;
+}
+
+.input {
+    text-align: center;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+
+    width: 100%;
+    margin: 20px 0;
+    padding: 50px;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
