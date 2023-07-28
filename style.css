@@ -14,9 +14,24 @@ body {
 
 .logo {
     background: url(assets/surf.jpg) center center;
-    width: 33%;
+    width: 50%;
     background-size: cover;
-    height: 960px;
+    height: 804px;
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 200px;
+    position: relative;
+    left: 0; top: 300px;
+    color: white;
+    font-size: 48px;
 }
 
 .form {
