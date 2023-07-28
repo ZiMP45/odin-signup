@@ -13,7 +13,7 @@ body {
 }
 
 .logo {
-    background: url(assets/surf.jpg) center center;
+    background: url(../assets/images/surf.jpg) center center;
     width: 50%;
     background-size: cover;
     height: 804px;
