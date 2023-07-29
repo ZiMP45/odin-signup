@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px solid black;
-} */
+}
 
 :root {
     --primary-color: #2A5653;
@@ -54,6 +54,8 @@ h1 {
 
 .block {
     padding: 36px;
+    font-size: 28px;
+    margin: 0;
 }
 
 section {
@@ -68,27 +70,24 @@ section {
 
 .title {
     font-size: 28px;
-    text-align: left;
+    text-align: center;
     margin-top: 0;
     margin-bottom: 8px;
 }
 
-.form-row {
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: flex-start;
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 240px);
+    padding-bottom: 20px;
+    justify-content: space-evenly;
 }
 
 input {
-    width: 150px;
-    padding: 0;
-    margin: 4px;
-    box-sizing: border-box;
+    width: 232px;
 }
 
 input:focus {
-    background-color: rgba(205, 228, 219, 0.8);
-    border: 1px solid var(--tertiary-color);
+    background-color: palegoldenrod;
 }
 
 
