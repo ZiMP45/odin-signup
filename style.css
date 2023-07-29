@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid black;
-}
+} */
 
 :root {
     --primary-color: #2A5653;
@@ -24,9 +24,9 @@ body {
 
 .logo {
     background: url(../assets/images/surf.jpg) center center;
-    width: 50%;
+    width: 66%;
     background-size: cover;
-    height: 804px;
+    height: 920px;
     position: relative;
     border-radius: 4px 0px 0px 4px;
 }
@@ -49,7 +49,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .block {
@@ -70,9 +70,13 @@ section {
 
 .title {
     font-size: 28px;
-    text-align: center;
     margin-top: 0;
     margin-bottom: 8px;
+
+    position: relative;
+    top: 8px;
+    padding-left: 16px;
+
 }
 
 form {
@@ -83,11 +87,39 @@ form {
 }
 
 input {
-    width: 232px;
+    width: 240px;
 }
 
 input:focus {
     background-color: palegoldenrod;
+}
+
+button {
+    width: 240px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--text-color);
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, 
+                rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.submit {
+    position: relative;
+    bottom: 60px;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: goldenrod;
 }
 
 
