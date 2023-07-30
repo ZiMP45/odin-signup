@@ -127,11 +127,6 @@ button:hover {
                 rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-.submit {
-    position: relative;
-    bottom: 60px;
-}
-
 a {
     color: var(--primary-color);
     text-decoration: none;
