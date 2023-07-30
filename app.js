@@ -2,11 +2,11 @@ function passwordConfirmation() {
     let password = document.getElementById('pwd').value;
     let confirmation = document.getElementById('confirm').value;
 
-    if(password == "") {
-        alert("Error: password field is empty");
-    } else if (password == confirmation) {
-        alert("Logged in")
+    if (password == confirmation) {
+        document.getElementById('message').style.color = 'green'
+        document.getElementById('message').innerHTML = 'Matching';
     } else {
-        alert("Please make sure your passwords match");
+        document.getElementById('message').style.color = 'red';
+        document.getElementById('message').innerHTML = 'Not Matching';
     }
 };
