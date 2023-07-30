@@ -50,6 +50,15 @@ body {
     align-items: center;
 }
 
+.side-hero p {
+    font-size: 12px;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    color: white;
+}
+
 .side-hero img {
     width: 5rem;
     padding: 10px;
