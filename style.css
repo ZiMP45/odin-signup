@@ -29,7 +29,7 @@ body {
     width: 66%;
     min-width: 345px;
     height: 100vh;
-    background: url(../assets/images/surf.jpg);
+    background: url(./assets/images/surf.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
