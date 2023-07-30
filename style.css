@@ -20,29 +20,39 @@ body {
     flex-direction: row;
     border: 1px solid var(--primary-color);
     border-radius: 5px;
+    width: 100vw;
 }
 
-.logo {
-    background: url(../assets/images/surf.jpg) center center;
-    width: 66%;
-    background-size: cover;
-    height: 920px;
+.side-hero {
+    flex-grow: 1;
     position: relative;
+    width: 66%;
+    min-width: 345px;
+    height: 100vh;
+    background: url(../assets/images/surf.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px 0px 0px 4px;
 }
 
-h1 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    
+.side-hero div {
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
-    height: 180px;
-    position: relative;
-    left: 0; top: 160px;
     color: white;
     text-shadow: var(--quaternary-color) 1px 0 12px;
+
+    line-height: 2rem;
+    padding: 0px 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-hero img {
+    width: 5rem;
+    padding: 10px;
 }
 
 .form {
